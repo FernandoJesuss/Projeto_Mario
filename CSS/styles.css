@@ -13,6 +13,33 @@ body {
     
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    
+   
+}
+
+.header img {
+    height: 60px;
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s  ease-in-out;
+
+}
+
 .caixa-mae {
     display: flex;
     height: 100vh;
@@ -49,6 +76,7 @@ video {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     position: fixed;
     top: 0;
+    
 }
 
 
@@ -58,6 +86,14 @@ img {
 
 .logo-mario {
     height: 200px;
+    
+}
+
+.link-whatsapp img {
+position: fixed;
+height: 60px;
+right: 20px;
+bottom: 20px;
 }
 
 button {
@@ -70,6 +106,40 @@ button {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top:30px ;
+    
+}
+
+.formulario-fale-conosco {
+background-color: white;
+gap: 20px;
+display: flex;
+flex-direction:column ;
+position: fixed;
+top: 50px;
+left: 50px;
+padding: 20px;
+border-radius: 5px;
+
+}
+
+input {
+height: 40px;
+border-radius: 5px;
+border: 1px solid gray;
+padding-left: 5px;
+outline-color: #18D80F;
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+border: 1px solid gray;
+padding-left: 5px;
+outline-color: #18D80F;
+
 }
 
 .img-mario-luigi {
