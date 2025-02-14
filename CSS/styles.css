@@ -3,22 +3,52 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 
+
 }
 
 body {
+    
+    height: 100vh;
+    
+    
+}
+
+.caixa-mae {
     display: flex;
     height: 100vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 100px;
 
 }
 
 .caixa-principal {
 
-width: 50%;
+width: 40%;
+
+}
+
+.caixa-video {
+
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    
 
 
+}
+
+video {
+    width: 100vw;    
+    
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
 }
 
 
@@ -44,5 +74,6 @@ button {
 
 .img-mario-luigi {
 height: 500px;
+
 
 }
